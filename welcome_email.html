@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Общие настройки */
+        body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+        body { height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; background-color: #0f1115; }
+        img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+        table { border-collapse: collapse !important; }
+
+        /* Стили для адаптации */
+        @media screen and (max-width: 600px) {
+            .main-card { width: 90% !important; max-width: 90% !important; }
+            .content { padding: 30px 20px !important; }
+            .header { padding: 30px 20px !important; }
+            h1 { font-size: 24px !important; }
+            h2 { font-size: 20px !important; }
+            p { font-size: 15px !important; }
+            .btn { width: 80% !important; padding: 16px 0 !important; display: block !important; margin: 25px auto 0 !important; text-align: center; }
+        }
+
+        .wrapper { width: 100%; background-color: #0f1115; padding: 40px 0; }
+        .main-card { width: 100%; max-width: 500px; background-color: #ffffff; border-radius: 24px; margin: 0 auto; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        .header { background-color: #638576; padding: 40px 20px; text-align: center; }
+        .content { padding: 40px 30px; text-align: center; color: #1a1a1a; font-family: 'Inter', Arial, sans-serif; }
+        .footer { padding: 30px 20px; text-align: center; color: #6b7280; font-size: 12px; font-family: 'Inter', Arial, sans-serif; }
+        h1 { margin: 0; color: #ffffff; font-size: 28px; font-weight: 700; letter-spacing: 2px; }
+        h2 { font-size: 24px; margin-bottom: 10px; color: #1a1a1a; }
+        p { font-size: 16px; line-height: 1.6; color: #4b5563; }
+        .btn { display: inline-block; background-color: #638576; color: #ffffff !important; padding: 16px 32px; text-decoration: none; border-radius: 100px; font-weight: 600; margin-top: 25px; }
+    </style>
+</head>
+<body style="background-color: #0f1115;">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #0f1115;">
+        <tr>
+            <td align="center" style="padding: 10px;">
+                <div class="wrapper">
+                    <table border="0" cellpadding="0" cellspacing="0" class="main-card">
+                        <tr>
+                            <td class="header">
+                                <h1>IZIPAY</h1>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="content">
+                                <h2>Welcome to the family!</h2>
+                                <p>Hello, <strong>{{username}}</strong>!</p>
+                                <p>Your account has been successfully verified. Now you can explore the full power of IZIPAY: secure crypto payments, instant transfers, and global access.</p>
+                                
+                                <a href="https://izipay.me/login.php" class="btn">Go to Dashboard</a>
+                                
+                                <p style="margin-top: 30px; font-size: 14px; color: #8e8e93;">If you have any questions, our support team is always here to help.</p>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 500px;">
+                        <tr>
+                            <td class="footer">
+                                &copy; 2026 izipay.me. All rights reserved.<br>
+                                <span style="color: #4b5563;">You received this email because you registered on izipay.me</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
